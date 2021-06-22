@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid blue; */
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    width: 960px;
+}
+header{
+    background-image: url("./images/coffee-beans.jpg");
+    height: 100px;
+    margin-bottom: 60px;
+}
+header h1{
+    color: rgba(255, 255, 255, .8);
+    margin: 30px 0px 0 30px;
+    font-size: 3rem;
+    
+    
+}
+h1, h2, h3 {
+    color: brown;
+}
+ul{
+    list-style-image: url("./images/tiny-coffee-cup.gif");
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+a:hover{
+    color: blue;
+}
+nav ul{
+    list-style-type: none;
+    /* padding: 0;  yukarıda universal e taşıdım*/ 
+    margin-top: 38px; /* background pic ile nav şeridini ayırdım */
+}
+
+nav li{
+    display: inline; /*buttona benzetirken her biri bolack işgal etmesin diye ekledik */
+    float:left /*sadece yukarıdaki ile button görünümlü blocklar alt alta diziliyor. float left ile bitişik olarak yan yana diziliyor */ 
+}
+nav a:link, nav a:visited {
+    display: block;
+    width: 160px;
+    text-align: center;
+    padding: 10px 0;
+    background-color: brown;
+    color: white;
+}
+nav a:hover{
+    background-color: black;
+}
+aside{
+    width: 280px;
+    float:right;
+    background-color: tan;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.photo-left{
+    float: left;
+    margin-right: 20px;
+}
+.photo-right{
+    float: right;
+    margin-left: 20px;
+}
+footer{
+    margin: 40px 0;
+}
+footer nav a:link, footer nav a:visited {
+    color: gray;
+    text-decoration: none;
+    display: block;
+    width: 160px;
+    text-align: center;
+    background-color: white;
+
+}
+
+footer nav a:hover {
+    color: black;
+}
+td, th{
+    border: 1px solid tan;
+    width: 20%;
+    padding: 5px;
+}
+table{
+    /* border-spacing: 0; */
+    border-collapse: collapse;
+    text-align: center;
+}
+form{
+    margin-left: 25px;
+}
+form *{
+    padding: 0 10px;
+}
+
+video{
+    margin-bottom: 25px;
+    margin-left: 160px;
+    filter: grayscale(50%);
+    -webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+}
+
