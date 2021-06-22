@@ -90,6 +90,9 @@ footer nav a:link, footer nav a:visited {
 footer nav a:hover {
     color: black;
 }
+ footer p{
+     font-size: .7rem;
+ }
 td, th{
     border: 1px solid tan;
     width: 20%;
