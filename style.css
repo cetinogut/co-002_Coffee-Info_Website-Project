@@ -42,7 +42,7 @@ nav ul{
 }
 
 nav li{
-    display: inline; /*buttona benzetirken her biri bolack işgal etmesin diye ekledik */
+    display: inline; /*buttona benzetirken her biri block işgal etmesin diye ekledik */
     float:left /*sadece yukarıdaki ile button görünümlü blocklar alt alta diziliyor. float left ile bitişik olarak yan yana diziliyor */ 
 }
 nav a:link, nav a:visited {
@@ -115,6 +115,6 @@ video{
     margin-left: 160px;
     filter: grayscale(50%);
     -webkit-filter: grayscale(100%);
--moz-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
 }
 
